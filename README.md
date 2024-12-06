@@ -4,7 +4,7 @@ This is a Simple Random Walk Program made with matplotlib, there is nothing in s
 
 * How it works *
 
-A point is generated in the graph at (0,0)
+A point is generated in the graph at (0,0),
 in the code there is the function get_step, where there is the direction and distance variables, the direction variable choose randomly 1 or -1, if it is chosen 1, the next point will be to the right(towards the positive side of the axis), 
 if -1, go to the negative direction, the distance variable choose a random number in a custom size list given by the set_distance function that have a minDistance and maxDistance as parameters, so it will choose between a number in range of these values
 when you have these two values, it will be multiplied by each other giving a direction to move and how much to, this happens for each axis, for example, starting in (0,0) getting the direction -1 and 5 distance for x-axis, 1 and 2 for y-axis, will get the next 
